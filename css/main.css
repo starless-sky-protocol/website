@@ -1,0 +1,30 @@
+:root {
+    --brand-color: #62448f;
+}
+
+#home {
+    background: linear-gradient(rgb(240, 240, 240), rgb(255, 255, 255));
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text-brand {
+    color: var(--brand-color);
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+
+.nav-link {
+    margin-right: 23px;
+}
+
+.btn-primary {
+    background-color: var(--brand-color);
+    border: none;
+}
